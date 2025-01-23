@@ -1,0 +1,362 @@
+.home-container {
+  display: flex;
+  flex-wrap: wrap; 
+  justify-content: space-around;
+  padding: 20px;
+  margin: 0px auto 150px auto ;
+}
+
+
+.left-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center; 
+  min-width: 300px;
+}
+
+.right-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; 
+  width: 250px;
+  height: 250px;
+}
+
+.circle-container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+.circle-container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 230px;
+  height: 230px;
+  border: 2px dashed rgb(0, 0, 0);
+  box-shadow: 0 0 10px rgb(0, 0, 0);
+  border-radius: 50%;
+}
+
+img[alt="Profile"] {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out;
+}
+
+img:hover[alt="Profile"] {
+  transform: scale(1.2);
+}
+
+h1.Hi {
+  font-size: clamp(2rem , 5vw, 3rem);
+  margin-top: 0px;
+  padding-top: 15px;
+  margin-bottom: 0;
+  background-color: rgb(202, 220, 224);
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+h1.Name {
+  font-size: clamp(2rem , 5vw, 3rem);
+  margin-top: 10px;
+  margin-bottom: 0;
+  background-color: rgb(202, 220, 224);
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+div.homebody {
+  background-color: rgb(202, 220, 224);
+  height: 90vh;
+  margin-top: 0px;
+}
+
+button {
+  display: block;
+  margin: 10px auto;
+  padding: 10px 20px;
+  background-color: #ff9900;
+  font-family: 'Times New Roman', Times, serif;
+  color: white;
+  font-size: 1.2em;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #3e8e41;
+}
+
+.FooterBottom {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+}
+
+
+
+@media only screen and (max-width: 800px) {
+  .home-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    padding: 0px;
+  }
+  
+  h1.Hi {
+    font-size: clamp(2rem , 5vw, 3rem);
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: rgb(202, 220, 224);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  h1.Name {
+    font-size: clamp(2rem , 5vw, 3rem);
+    margin: 30px 0px 0px 0px;
+    margin-bottom: 0;
+    background-color: rgb(202, 220, 224);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  div.homebody {
+    background-color: rgb(202, 220, 224);
+    height: 90vh;
+  }
+  
+  .left-container {
+    padding: 5px;
+    margin: -15px 0px 0px 20px;
+  }
+
+  .right-container{
+    margin: -30px auto 20px auto ;
+    padding: 0px;
+  }
+  
+  button {
+    display: block;
+    margin: 0px auto 0px auto; 
+    padding: 10px 15px;
+    background-color: #ff9900;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+
+
+@media only screen and (max-width: 590px) {
+  .home-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+  }
+  
+  h1.Hi {
+    font-size: clamp(2rem , 5vw, 3rem);
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: rgb(202, 220, 224);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  h1.Name {
+    font-size: clamp(2rem , 5vw, 3rem);
+    padding-bottom: 10px;
+    margin: 0px 0px 0px 0px;
+    margin-bottom: 0;
+    background-color: rgb(202, 220, 224);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  div.homebody {
+    background-color: rgb(202, 220, 224);
+    height: 90vh;
+  }
+  
+  .left-container {
+    padding: 5px;
+    margin: -15px 0px 0px 0px;
+
+  }
+
+.right-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap; 
+  width: 250px;
+  height: 250px;
+  margin-top: 10px;
+}
+
+.circle-container1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0);
+}
+
+
+.circle-container2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 230px;
+  height: 230px;
+  box-shadow: 0 ;
+  border-radius: none;  
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0);
+}
+
+img[alt="Profile"] {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  margin-top: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease-in-out;
+}
+
+img:hover[alt="Profile"] {
+  transform: scale(1.2);
+}
+
+  button {
+    display: block;
+    margin: 10px auto 0px auto; 
+    padding: 10px 15px;
+    background-color: #ff9900;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+}
+
+
+@media only screen and (max-width: 390px) {
+  .home-container {
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px;
+  }
+  
+  h1.Hi {
+    font-size: clamp(1.5rem , 5vw, 3rem);
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: rgb(202, 220, 224);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
+
+  h1.Name {
+    font-size: clamp(1.5rem , 5vw, 3rem);
+    margin: 0px 0px 0px 0px;
+    margin-bottom: 0;
+    background-color: rgb(202, 220, 224);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+  }
+  
+  div.homebody {
+    background-color: rgb(202, 220, 224);
+    height: 90vh;
+  }
+  
+  .left-container {
+    padding: 5px;
+    margin: -15px 0px 0px 0px;
+
+  }
+
+
+  .right-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap; 
+    width: 250px;
+    height: 250px;
+    margin-top: -18px;
+  }
+  
+  .circle-container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 230px;
+    height: 230px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  }
+  
+  
+  .circle-container2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 210px;
+    height: 210px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    border-radius: 50%;
+  }
+  
+  img[alt="Profile"] {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    margin-top: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  img:hover[alt="Profile"] {
+    transform: scale(1.2);
+  }
+  
+  button {
+    display: block;
+    margin: 0px auto 0px auto; 
+    padding: 10px 15px;
+    background-color: #ff9900;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    font-size: 1.2em;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+  }
+}

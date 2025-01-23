@@ -1,0 +1,94 @@
+.tools-section {
+    padding: 20px;
+  }
+  
+  /* Create a flex container for the row */
+  .toolsrow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; /* Adjust the alignment as needed */
+  }
+h1[id="tools-icon"]{
+    font-size: 40px;
+    font-family: 'Times New Roman', Times, serif ;
+    margin-top: 2px;
+    margin-bottom: 0px;
+  }
+  
+  .tools-icons {
+    text-align: center;
+    margin: 15px;
+    position: relative;
+    font-size: 80px;
+    width: 150px;
+    height: 120px;
+  }
+  
+  .tools-icons p.tools {
+    margin-top: 0px;
+    font-size: 15px;
+  }
+  
+  /* Add a border and padding to create boxes around the icons */
+  .tools-icons {
+    border: 2px solid #555;
+    padding: 10px;
+    border-radius: 8px;
+    transition: box-shadow 0.3s; /* Add a smooth transition for the glow effect */
+  }
+  
+  /* Add glow effect and hover styles */
+  .tools-icons:hover {
+    background-color: #4d5254;
+    color: #00eeff;
+    border: 2px solid rgb(202, 220, 224);
+    box-shadow: 0 0 5px rgb(18, 255, 255), 0 0 20px rgb(137, 252, 252), 0 0 30px rgb(5, 243, 255); /* Customize the glow colors */
+}
+  
+  /* Optional: Add a subtle shadow effect on hover */
+  .tools-icons:hover::before {
+    content: '';
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    bottom: -5px;
+    left: -5px;
+    border-radius: 12px;
+    background: linear-gradient(45deg, #000, transparent);
+    z-index: -1;
+  }
+  
+  /* Adjust font size and padding for smaller screens */
+@media only screen and (max-width: 768px) {
+  .tools-icons p.tools {
+    margin-top: 0px;
+    font-size: 8px;
+  }
+  .tools-icons {
+    text-align: center;
+    margin: 10px 1px 10px 1px;
+    position: relative;
+    font-size: 40px;
+    width: 60px;
+    height: 60px;
+  }
+
+  .tools-section {
+    padding: 20px;
+  }
+
+h1[id="tools-icon"]{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif ;
+    margin-top: 2px;
+    margin-bottom: 0px;
+  }
+  
+  /* Create a flex container for the row */
+  .toolsrow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+
+}

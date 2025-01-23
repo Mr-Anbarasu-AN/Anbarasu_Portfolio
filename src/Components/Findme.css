@@ -1,0 +1,43 @@
+
+.Find-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    margin: auto auto auto auto;
+    width: 80%;
+    height: 530px;
+    background-color: rgb(103, 103, 103);
+    text-align: center;
+    overflow-x: hidden; 
+  }
+  
+  .Find-container h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+  
+  .Find-container p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    overflow: hidden; /* Prevent both vertical and horizontal scrolling */
+  }
+  
+  h2[id="Find-container"] {
+    font-family: 'Times New Roman', Times, serif;
+    padding-top: 10px;
+    margin-top: 0px;
+    font-size: 2.0rem;
+    margin-bottom: 1rem;
+  }
+  
+  .Find-container iframe {
+    width: 100%;
+    max-width: 100%;
+    height: 550px; /* Adjust the height as needed */
+
+    overflow: hidden; /* Prevent both vertical and horizontal scrolling */
+  }
+
+  

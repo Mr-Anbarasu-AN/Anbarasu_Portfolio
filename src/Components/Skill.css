@@ -1,0 +1,91 @@
+.skill-section {
+  padding: 20px;
+}
+
+.skillrow {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+h1[id="skill-icon"]{
+  font-size: 40px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 2px;
+  margin-bottom: 0px;
+}
+
+.tech-icons {
+  text-align: center;
+  margin: 20px;
+  position: relative;
+  font-size: 80px;
+  width: 150px;
+  height: 120px;
+}
+
+.tech-icons p {
+  margin-top: 0px;
+  font-size: 15px;
+}
+
+.tech-icons {
+  border: 2px solid #555;
+  padding: 10px;
+  border-radius: 8px;
+  transition: box-shadow 0.3s;
+}
+
+.tech-icons:hover {
+  background-color: rgb(219, 219, 219);
+  color: goldenrod;
+  border: 2px solid rgb(202, 220, 224);
+  box-shadow: 0 0 5px rgb(18, 255, 255), 0 0 20px rgb(137, 252, 252), 0 0 30px rgb(5, 243, 255);
+}
+
+.tech-icons:hover::before {
+  content: '';
+  position: absolute;
+  top: -5px;
+  right: -5px;
+  bottom: -5px;
+  left: -5px;
+  border-radius: 12px;
+  background: linear-gradient(45deg, #000, transparent);
+  z-index: -1;
+}
+
+
+@media (max-width: 768px) {
+  .skill-section {
+    padding: 20px;
+  }
+  
+  .skillrow {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  
+  h1[id="skill-icon"]{
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 2px;
+    margin-bottom: 0px;
+  }
+  
+  .tech-icons {
+    text-align: center;
+    margin: 10px 1px 10px 1px;
+    position: relative;
+    font-size: 40px;
+    height: 60px;
+    width: 60px;
+  }
+
+  
+  .tech-icons p {
+    margin-top: 0px;
+    font-size: 8px;
+  }
+}

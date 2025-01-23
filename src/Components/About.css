@@ -1,0 +1,29 @@
+
+/* Media query for smaller screens */
+@media only screen and (min-width: 768px) {
+  .div.leftcontainer,
+  .div.rightcontainer {
+    width: 48%; /* Adjust the width of containers based on your design preference */
+  }
+}
+
+.div.leftcontainer,
+.div.rightcontainer {
+  text-align: center;
+  width: 100%; /* Make both containers take up the full width on small screens */
+}
+
+.aboutcontainer {
+  display: flex;
+  flex-wrap: wrap; /* Allow containers to wrap to the next line on smaller screens */
+  justify-content: space-around;
+  padding: 20px;
+  text-align: center;
+}
+
+.leftcontainer p {
+  font-size: 1.2em;
+  text-align: center;
+  margin-top: 30px;
+  font-family: 'Times New Roman', Times, serif;
+}

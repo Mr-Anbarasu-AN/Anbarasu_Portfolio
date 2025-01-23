@@ -1,0 +1,145 @@
+
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+textarea {
+  width: 100%;
+  min-height: 80px;
+  padding-left: 0px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+input[type="email"],
+input[type="text"],
+input[type="fullname"] {
+  width: 100%;
+  padding-left: 0px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  font-size: 14px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button[type="submit"] {
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #ff9900;
+  color: #fff;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #3e8e41;
+}
+
+
+input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+
+.toggle-switch {
+  position: relative;
+  display: inline-block;
+  width: 60px;
+  height: 34px;
+}
+
+.toggle-switch input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ff9900;
+  border-radius: 34px;
+  transition: .4s;
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 26px;
+  width: 26px;
+  left: 4px;
+  bottom: 4px;
+  background-color: #ff9900;
+  border-radius: 50%;
+  transition: .4s;
+}
+
+input:checked + .slider {
+  background-color: #ff9900;
+}
+
+input:focus + .slider {
+  background-color: #ff9900;
+}
+
+input:checked + .slider:before {
+  transform: translateX(26px);
+}
+
+
+
+h6{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: clamp(0.85rem , 0.5vw, 0.5rem);
+}
+
+
+@media only screen and (min-width: 768px) {
+.contact-end {
+    width: 80%; 
+  }
+}
+
+img.ProfileGirl{
+  width: 100px;
+}
+
+.contactbody {
+  background-color: rgb(202, 220, 224);
+  display: flex;
+  justify-content: space-around; 
+  align-items: flex-start; 
+  flex-wrap: wrap; 
+}
+
+
+.contact-form {
+  max-width: 400px;
+  margin: 0 auto;
+  padding: 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: rgb(202, 220, 224);
+}

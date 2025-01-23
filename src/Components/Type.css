@@ -1,0 +1,40 @@
+h2.type {
+    font-size: clamp(1.8rem , 2vw, 3rem);
+    margin: -10px auto 10px auto;
+    padding-top: 30px;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif
+  }
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 800px) {
+  h2.type {
+    font-size: clamp(1.5rem , 2vw, 3rem);
+    margin: 10px 0px 10px 0px;
+    padding-top: 0px;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif
+  }
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 550px) {
+  h2.type {
+    font-size: clamp(1.7rem , 2vw, 3rem);
+    margin: 0px;
+    padding-top: 0px;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif
+  }
+}
+
+/* Media query for smaller screens */
+@media only screen and (max-width: 390px) {
+  h2.type {
+    font-size: clamp(1.3rem , 2vw, 3rem);
+    margin: 0px;
+    padding-top: 0px;
+    font-weight: 100;
+    font-family: 'Times New Roman', Times, serif
+  }
+}
